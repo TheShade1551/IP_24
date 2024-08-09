@@ -116,9 +116,9 @@ Introduction:-
 - Client Requests
 - Event Queue -> 
 - Event Loop -> Blocking Operations + Non-Blocking Operations
-- Blocking Operations - Blocks the Main Thread - Asynchronous JS
+- Blocking Operations - Blocks the Main Thread - Asynchronous JS 
   - Delegates Task to the Thread Pool & Expects Output
-  -  Thread Pool -> Assigns a The Work to Worker
+  -  Thread Pool -> Assigns a The Work to Worker - C++ makes thread pool
   -  Assigns back to Event Queue
 - Non-Blocking Operations - Blocks the other Threads - Synchronous JS
   - Processes LineWise
@@ -132,3 +132,97 @@ Introduction:-
 - The Promise May or May not be Resolved.
 - Promises Avoids - Callbacks & Callback Queue
 
+
+------------------------------- Week 4 ----------------------------------
+--------------------------Making HTTP Server-----------------------------
+-------------------------File System & HTTP Modules----------------------
+
+- Day4 -> cd -> npm init
+
+1. npm - node pacakage manager
+- command which installs or runs libraries/modules from pacakge.json(central repository)
+- 2 ways to Install:- Local, Global
+- local:- It will only be available in that File.
+- global:- Anywhere within the Windows, File will execute on command
+
+2. Nodemon - library
+- You Can Use NodeJS Continuous
+- 2 Types of Environment:- 1. Devlopement 2. Production
+- `npm install nodemon --save-dev` - Dependency changed to node dependancy
+
+3. File Handling in NodeJS
+- read, write, append files
+- You can create a file
+- You can read a file.
+- Node Module :- File System - Prebuilt Libraries
+  - `const fs = require("fs")` - fs library can be used as a variable
+  
+4. Running file live Continously using nodemon script
+Synchronous
+- reading & writing in file
+  - `fs.writeFileSync("./a.txt","Hello World Sagar")`
+- buffer - file memory address & content - encoded
+  - `const data = fs.readFileSync('./a.txt', 'utf-8')`
+- using UTF-8 = Uniform Transfer Protocol
+    - using ascii 
+
+Asynchronous
+- error handling using callback functions
+
+5. Version Naming - 4.7.6
+- Major Version - 4 - Introducing Breaking Changes
+- Minor Version - 7 - Minor Changes in API
+- Patch Release - 6
+
+6. HTTP Server - HyperText Transfer Protocol
+- A Protocol - Transfer HyperText, eg. HTML
+- Machine Communication
+- Specifically for Websites, most commnon way to interact with Frontend & Backend
+
+- FrontEnd - Appearance
+  - HTML - Content
+  - CSS - Style
+  - JavaScript - Functionality
+- BackEnd - Machine/Server Running
+  - Frontend & Backend Communications through - Wires/Routers
+  - Optical Fibers - Connecting Countries through Wires
+  - Client Server Model - 
+    - Code Follows HTTP Protocol
+    - Client - Frontend
+    - Server - Backend
+    - Similar to Calling to Friend -
+      - Dialing - Frontend
+      - Connection to Cell Tower - Backend
+
+7. HTTP Protocol
+- Client Sends Arguments
+- Rather than calling a functionm uses URL
+
+- Client Needs to Figure out
+HTTP:-
+  - Protocol(HTTP/HTTPS)
+  - Address(UL/IP/PORT)
+  - Route
+  - Header, Body, Query Parameters
+  - Method
+
+- Server Needs to Figure out
+Sever
+  - Status Code
+
+- ChatGPT:- Request URL
+
+    This was the HTTP Protocol
+    - Client Conneting to Server
+      - protocol + URL + Route
+      - Header
+      - Body
+      - Method
+- Broswer will do the following:
+    i. Parse URL
+    ii. DNS Lookup
+    iii. Connection Establishment to IP
+
+8. How to Create Your Own HTTP Server
+- Using Req,Res Arguments in Createserver Method of HTTP module
+- Hi There - Hello From Server at `localhost:8000` 
