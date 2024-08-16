@@ -177,7 +177,7 @@ Asynchronous
 6. HTTP Server - HyperText Transfer Protocol
 - A Protocol - Transfer HyperText, eg. HTML
 - Machine Communication
-- Specifically for Websites, most commnon way to interact with Frontend & Backend
+- Specifically for Websites, most common way to interact with Frontend & Backend
 
 - FrontEnd - Appearance
   - HTML - Content
@@ -226,3 +226,39 @@ Sever
 8. How to Create Your Own HTTP Server
 - Using Req,Res Arguments in Createserver Method of HTTP module
 - Hi There - Hello From Server at `localhost:8000` 
+
+
+------------------------------- Week 5 ----------------------------------
+------------------------------Express JS---------------------------------
+-------------------------File System & HTTP Modules----------------------
+
+1. URL - Uniform Resource Protocol
+- Protocol - Domain - User Friendly Name of IP
+- Query Parameters - about
+
+2. Working Client Server Model
+- 5 Methods 
+    1. Get - Get you that resource
+    2. Post - Posting stuff on server
+    3. Put - change the whole parameter, put the whole resource instead of single 
+    4. Patch - changes a single part
+    5. Delete - delete
+- Get Request
+- Post Request
+
+- HTTP Status Code
+- 200 - Ok
+- 404 - Page Not Found
+- 403 - Authentication Error
+- 500 - Server Not Running
+
+3. Express - Library
+- Industry Standard
+- Multiple Ways to Handle Servers, Code & etc.
+- `npm install express`
+
+4. Boilerplate Express Code
+
+5. Running Localhost through different devices
+- using ipconfig to find ip address of device
+- & running port through the same connection on phone
