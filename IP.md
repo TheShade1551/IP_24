@@ -262,3 +262,50 @@ Sever
 5. Running Localhost through different devices
 - using ipconfig to find ip address of device
 - & running port through the same connection on phone
+
+
+------------------------------- Week 6 ----------------------------------
+-------------------------Express JS:- Hands On!--------------------------
+----------------------------The Final Day--------------------------------
+
+Final Day..
+
+Core Subjects:-
+1. OS -  Kunal Kushwaha
+2. Computer Networks - Kunal Kushwaha
+3. Git & Github Basics
+4. Frameworks
+
+1. HTTP Code Revisit
+App - Functionality
+Code - Dependency
+65536 ports in Machine - With different functions
+TCP = Transmission Control Protocol - uses `Port = 443`
+SSH - used `Port = 22`
+- These Ports can be used if not Working on any Process.
+- Callback Function - Function within a Function
+Server Takes Request, Server Sends Response
+
+2. Response:- 
+- Send:- Sending Normal Response
+- SendStatus:- Tells the Staus of the Server
+   1. 200 range = Ok, Everything is Well.. 
+   2. 400range - Bad Error, Not Found
+   3. 500range = Server Down
+- `res.status(200),send("hi")` - chaining of Commands - Will Send OK if Status = 200
+- download - downloads the path of the given file
+- render - View the given file using View Engine
+
+- Views Engine:- ejs, pug- Shows given files
+- `app.set('view engine', ejs)`
+
+3. Routing - Sending the Data using Routes
+- uses Router instead of App
+- Exporting the Router
+- Making a Function to collect the Router file from path
+- So any request to app will first go to Router.
+
+- Using GET
+
+- Using Post
+ - Request parameters
