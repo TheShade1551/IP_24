@@ -309,3 +309,61 @@ Server Takes Request, Server Sends Response
 
 - Using Post
  - Request parameters
+
+------------------------------- Week 7 ----------------------------------
+---------------------------------Web-------------------------------------
+-----------------------------New Faculty---------------------------------
+
+0. Pre-requisite info:-
+- Variables
+- Conditions
+- Loops
+- Functions - All types
+- Object - Key-Value Pairs
+- Asynchronous JS - Callaback, Event Loop, Event Queue - Namaste JS
+
+1. Introduction to Web
+  A. FrontEnd
+  - Client Using Device.
+  - Sends a Request to DNS Server
+  B. BackEnd
+  - DNS Server Connected to Database
+  - Server Finds Corresponding URL wrt to IP
+  - Finds Data connected in Database
+  - Server Shows Page Embedded with HTML File to Server
+
+- Eg. Displaying Data on Frontend from SQL/MongoDB database
+  - Using Fetch API - Application Programming Interface
+
+- Server Acts as a MiddlePerson between Client & Database 
+
+This is **Web2 Model**.
+
+Web1 = No Server - Non-Dyanmic - HTML,CSS & basic JS
+
+Web2 = Client-Server Architecture
+
+Web3 = Peer-to-Peer Connection, Encryption, Blockchain
+
+![Types of Web](<WhatsApp Image 2024-09-06 at 11.30.48_b8a6f9aa.jpg>)
+
+2. Backend:- 
+- CRUD Operations - CREATE READ UPDATE DELETE
+   1. Create - Inserting/Creating the Data into Database - Post Request
+   2. Read - Reading Exisiting Data - Get Request
+   3. Update - Updating Existing Data - Patch, Put Request
+   4. Delete - Deleting Existing Data - Delete Request
+
+3. Basic Get Request
+- Callback Function - Function Passed as a Parameter as a Function is Called as a Callback Function.
+- In Every Request we Pass 2 Parameters:-
+   1. URL
+   2. Callback Function
+
+Asynchronous JS Works Using Callback Probosis
+
+4. Packages Required
+  1. Express
+  2. Mongo / mysql / **mysql2**
+  3. Cors
+  4. Body-Parser
