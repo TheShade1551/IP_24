@@ -367,3 +367,54 @@ Asynchronous JS Works Using Callback Probosis
   2. Mongo / mysql / **mysql2**
   3. Cors
   4. Body-Parser
+
+------------------------------- Week 8 ----------------------------------
+--------------------------------- -------------------------------------
+----------------------------Zeeshan Chaudary-----------------------------
+Host:- Zeeshan Chaudhary, Colgate Polmoliv, E-Commerce Management
+       Full Stack Lead, Tech Stack - React, Next, etc.
+
+1. Node + Express
+  - FrontEnd -> Server -> Database
+
+2. Creating Repo
+  - new repo
+  - npm init
+  - npm install nodemon
+  - npm install mongoose
+  - npm install dotenv
+
+3. Creating a Web Server using Express
+
+4. MongoDB Atlas
+- BSON format
+
+College Raid! IP Cancelled!
+
+
+------------------------------- Week 9 ----------------------------------
+-----------------------------MongoDB-------------------------------------
+----------------------------Shailesh Sorani------------------------------
+
+- MongoDB Atlas
+- Installing Shell
+- Connecting a database with system
+
+1. Basic Commands:-
+   1. show dbs;
+   2. use tcet;
+   3. show collections;
+   4. db.createCollection("users");
+   5. show collections;
+   6. var rec = {"name":"Sagar"}
+   7. db.users.insertOne(rec)
+   8. db.users.deleteOne(rec)
+
+2. Database & MongoDB
+- JSON & BSON
+- mongod - monogo daemon
+
+
+------------------------------- Week 10 ----------------------------------
+--------------------------Ek Aur Baar, ExpressJS--------------------------
+----------------------------????????????????------------------------------
